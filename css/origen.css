@@ -1,0 +1,182 @@
+header {
+  background-color: white;
+}
+
+nav {
+  background-color: white;
+}
+
+footer {
+  background-color: pink;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+h2 {
+  color: goldenrod;
+}
+
+h3 {
+  color: goldenrod;
+}
+
+a {
+  color: goldenrod;
+}
+
+p {
+  color: goldenrod;
+}
+
+/*mobile*/
+@media (max-width: 550px) {
+  #grid-padre {
+    grid-template-areas: "header" "nav" "main" "aside" "footer";
+    grid-template-rows: 15% 5% auto auto 8%;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    padding-top: 5%;
+    padding-bottom: 4%;
+    margin: 2%;
+  }
+  img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 5%;
+  }
+  input {
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 7px;
+    width: 80%;
+  }
+  .bodyContacto {
+    background-image: url(https://images.unsplash.com/photo-1653223792847-fdd1edef13b0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171);
+    background-size: 100vw 100vh;
+  }
+}
+/*tablet*/
+@media (min-width: 551px) and (max-width: 1023px) {
+  #grid-padre {
+    grid-template-areas: "header" "nav" "main" "aside" "footer";
+    grid-template-rows: 15% 8% auto auto 8%;
+  }
+  p {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin: 2%;
+  }
+  img {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 5%;
+  }
+  input {
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 7px;
+    width: 80%;
+  }
+  .bodyContacto {
+    background-image: url(https://images.unsplash.com/photo-1653223792847-fdd1edef13b0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171);
+    background-size: 100vw 100vh;
+  }
+}
+/*desktop*/
+@media (min-width: 1024px) {
+  #grid-padre {
+    grid-template-areas: "header header nav" "main main main" "footer footer footer";
+    grid-template-columns: auto auto;
+  }
+  p {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 800px;
+    margin: 2%;
+  }
+  p {
+    width: 500px;
+    margin-left: 5%;
+  }
+  .bodyContacto {
+    background-image: url(https://images.unsplash.com/photo-1653223792847-fdd1edef13b0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171);
+    background-size: 100vw 100vh;
+  }
+  input {
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 7px;
+    width: 45%;
+  }
+  .titContac {
+    text-align: left;
+    margin-left: 6%;
+  }
+}
+h1 {
+  font-family: "Playball", cursive;
+  font-size: 60px;
+  padding-top: 20px;
+  padding-left: 30px;
+  color: goldenrod;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Playball", cursive;
+  color: goldenrod;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 35px;
+}
+
+h3 {
+  font-family: "Playball", cursive;
+  color: goldenrod;
+  margin: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: goldenrod;
+  padding-right: 20px;
+}
+
+nav {
+  font-weight: 100;
+  font-family: "Playball", cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "Teko", sans-serif;
+  color: goldenrod;
+  font-size: 18px;
+}
+
+.pindex {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+iframe {
+  padding-top: 15px;
+  padding-left: 3%;
+  padding-bottom: 10%;
+}
+
+/*# sourceMappingURL=origen.css.map */

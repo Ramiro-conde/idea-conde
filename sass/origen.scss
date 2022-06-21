@@ -1,0 +1,16 @@
+//variables//
+$color-principal:white;
+$color-letra: goldenrod;
+$color-footer: pink;
+
+header{background-color:$color-principal;}
+nav{background-color: $color-principal;}
+footer{background-color: $color-footer;}
+h1{color: $color-letra;}
+h2{color: $color-letra;}
+h3{ color: $color-letra;}
+a{color: $color-letra;}
+p{color: $color-letra;}
+
+@import "responsive";  
+@import "tipografia";
