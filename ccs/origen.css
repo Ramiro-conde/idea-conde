@@ -175,6 +175,11 @@ h2, .h2 {
   text-align: center;
 }
 
+.h3 {
+  font-family: "Playball";
+  background-color: goldenrod;
+}
+
 h2, .h2 {
   font-size: 50px;
   font-family: "Playball", cursive;
