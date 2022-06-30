@@ -5,7 +5,7 @@
         "header" 
         "nav"
         "main"
-        "aside"
+        "main"
         "footer"; 
       grid-template-rows: 15% 5% auto auto 8%;}
       h1{text-align: center;}
@@ -24,7 +24,7 @@
             "header"
             "nav"
             "main"
-            "aside"
+            "main"
             "footer"
           ; grid-template-rows: 15% 8% auto auto 8%;
           } p{padding-top: 4%; padding-bottom: 2%; margin: 2%;}

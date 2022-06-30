@@ -19,21 +19,7 @@
    footer{grid-area: footer; background-color: pink; }
    
 
-.h1{font-family: 'Playball', cursive; font-size: 60px; padding-top: 20px; padding-left: 30px; color:goldenrod}
-
-h2{ @extend .h1;
-font-size: 50px;
-padding-right: 35px;
-padding-left: 0px;
-text-align: center;}
-
-@mixin caja($titulo, $color) { 
-   font-family: $titulo;
-   background-color: $color;
-   
-}
-.h3{@include caja ('Playball', goldenrod)}
-
+h1{font-family: 'Playball', cursive; font-size: 60px; padding-top: 20px; padding-left: 30px; color:goldenrod}
 
 
 h2{font-size: 50px; font-family: 'Playball', cursive; color: goldenrod; text-align: center; padding-top: 20px; padding-right: 35px;}
